@@ -1,0 +1,22 @@
+{
+  "name": "cesarmelendrez",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "angular": "^1.5.5",
+    "server": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cesarmelendrez",
+    "portfolio",
+    "cv"
+  ],
+  "author": "Cesar Melendrez",
+  "license": "ISC"
+}

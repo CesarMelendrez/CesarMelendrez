@@ -1,0 +1,114 @@
+<html>
+<head>
+		<!-- Favicon -->
+	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?> Assets/Images/Favicon.png"/>
+	<link rel="Icon" type="Image/png" href="Assets/Images/Favicon.png">
+  	<link rel="icon" type="image/png" href="Assets/Images/Favicon.png" />
+  	<link rel="icon" type="image/x-icon" href="Assets/Images/Favicon.png" />
+  	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="Assets/Images/Favicon.png">
+  	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="Assets/Images/Favicon.png">
+  	<link rel="apple-touch-icon-precomposed" href="Assets/Images/Favicon.png">
+	  <!-- Title-->
+	<meta charset="UTF-8">
+	<title>Cesar Melendrez</title>
+	  <!-- Behavioral Meta Data -->
+	 <meta charset="utf-8">
+	 <meta name="apple-mobile-web-app-capable" content="yes">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<!-- AnimationHome -->
+	<script src="http://code.createjs.com/easeljs-0.8.1.min.js"></script>
+	<script src="http://code.createjs.com/tweenjs-0.6.1.min.js"></script>
+	<script src="http://code.createjs.com/movieclip-0.8.1.min.js"></script>
+		<!-- Jquery -->
+	<script src="node_modules/jquery/dist/jquery.js"></script>
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+		<!-- Angular -->
+	<script src="node_modules/angular/angular.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.0/angular-ui-router.js"></script>
+		<!-- Js -->
+	<script src="Assets/Js/AnimationHome.js"></script>
+	<script src="Assets/Js/LogoSpin.js"></script>
+	<script src="Assets/Js/CallAnimation.js"></script>
+	<script src="Assets/Js/Frame/parallax.js"></script>
+	<script type="text/javascript" src="Assets/Js/Frame/ui_bootstrap.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-messages/1.5.5/angular-messages.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  	<script src="Assets/Js/Frame/jquery.min.js"></script>
+	<script src="Assets/Js/Frame/jquery.poptrox.min.js"></script>
+	<script src="Assets/Js/Frame/skel.min.js"></script>
+	<script src="Assets/Js/Frame/util.js"></script>
+		<!-- Controllers -->
+	<script src="App.js"></script>
+	<script src="Assets/Js/Index.ctrl.js"></script>
+	<script src="Assets/Js/Photos.ctrl.js"></script>
+	<script src="Assets/Js/Illustration.ctrl.js"></script>
+	<script src="Assets/Js/About.ctrl.js"></script>
+			<!-- Styles-->
+	<link rel="stylesheet" href="Assets/Css/Photos.css">
+	<link rel="stylesheet" href="Assets/Css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/Styles.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/Skills.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/animate.css">
+	<link rel="stylesheet" type="text/css" href="Assets/Css/Illustration.css">
+		<!-- Google Analytics -->
+		<!-- Add at the end -->
+		<!--https://www.google.com/analytics/web/provision?authuser=0#provision/CreateAccount/-->
+</head>
+
+
+
+<body ng-app='CesarMelendrez' class="Home" onload="init();">
+
+<div class="menu">
+	<a href="#/"><canvas id="LogoSpin" class="Logo" width="142" height="142"></canvas></a>
+	<a href="#/Photos"><span id="MenuPhotos" class="MenuButton animated fadeInLeftBig Menu5"></span></a>
+	<span id="Line" class="line animated fadeInLeftBig Menu4">&#10097;</span>
+	<a href="#/Skills"><span id="MenuSkills" class="MenuButton SkillsBtn animated fadeInLeftBig Menu3"></span></a>
+	<span id="Line" class="line animated fadeInLeftBig Menu2">&#10097;</span>
+	<a href="#/Illustration"><span id="MenuIllustrator" class="MenuButton animated fadeIn Menu1"></span></a>
+	<span id="Line" class="line animated fadeInRightBig Menu2">&#10096;</span>
+	<a href="#/About"><span id="MenuAbout" class="MenuButton animated fadeInRightBig Menu3" data-target="#AboutMe"></span></a>
+	<span id="Line" class="line animated fadeInRightBig Menu4">&#10096;</span>
+	<a href="#/"><span id="MenuContact" class="MenuButton animated fadeInRightBig Menu5" data-toggle="modal" data-target="#ContactMe"><span></a>
+</div>
+
+<div  id="scene" class="scene container" >
+	<canvas id="canvas1" class="Eneagono layer" data-depth="0.60" width="1920" height="1080"></canvas>
+	<canvas id="canvas2" class="Triangulo layer" data-depth="0.80" width="1920" height="1080"></canvas>
+	<canvas id="canvas3" class="3Circulos layer" data-depth="0.40" width="1920" height="1080"></canvas>
+	<canvas id="canvas4" class="Circulo layer" data-depth="1.00" width="1920" height="1080"></canvas>
+	<canvas id="canvas5" class="Apertura layer" data-depth="1.00" width="1920" height="1080"></canvas>
+</div>
+
+<div class="ByMe MeSkills">
+	<h2 class="By">By</h2>
+	<h2 class="Me">Cesar Melendrez</h2>
+</div>
+
+ <div class="modal fade" id="ContactMe" role="dialog">
+    <div class="modal-dialog">
+      <div id="Contact" class="modal-content">
+      	<img class="" src="Assets/Images/Hex101.svg">
+
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+          <span id="CM" class="modal-title">Contact Me</span>
+
+          <form action="Assets/Js/form.php" method="post" enctype="multipart/form-data">
+<!--           	<spam>Name</spam> -->
+			<input class="Name" type="text" name="Name" placeholder="Name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+<!-- 			<spam>Email</spam> -->
+			<input class="Email" type="text" name="EmailAddress" placeholder="Email Address" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+<!-- 			<spam>Message</spam> -->
+			<textarea class="Message" type="text" name="Message" placeholder="Message" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="on"></textarea>
+          <button id="Send" type="submit" class="" value="Send">Send</button>
+          </form>
+      </div>
+    </div>
+  </div>
+
+	<div ui-view class="UiView"></div>
+</body>
+
+</html>

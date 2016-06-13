@@ -1,0 +1,439 @@
+.Soft .frame{
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.Soft h1, .Soft1 .frame {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.Soft span, .Soft1 h1, .Soft2 .frame {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+.Soft1 span, .Soft2 h1, .Soft3 .frame {
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+.Soft2 span, .Soft3 h1, .Soft4 .frame {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.Soft3 span, .Soft4 h1, .Soft5 .frame {
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+}
+
+.Soft4 span, .Soft5 h1, .Soft6 .frame {
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+.Soft5 span, .Soft6 h1, .Soft7 .frame {
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+}
+
+.Soft6 span, .Soft7 h1 {
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s;
+}
+
+.Soft7 span, .Soft8 img {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.Soft8 span,  .Soft9 img {
+    -webkit-animation-delay: 3.3s;
+    animation-delay: 3.3s;
+}
+
+.Soft9 span {
+    -webkit-animation-delay: 3.6s;
+    animation-delay: 3.6s;
+}
+
+.TitleWeb h2 {
+    -webkit-animation-delay: 3.9s;
+    animation-delay: 3.9s;
+}
+
+.WebC {
+    -webkit-animation-delay: 4.2s;
+    animation-delay: 4.2s;
+}
+
+.WebC .S, .WebC0 .H {
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+}
+
+.WebC .SS, .WebC0 .Level2, .WebC1 .Css1{
+    -webkit-animation-delay: 4.8s;
+    animation-delay: 4.8s;
+}
+
+.WebC0 span, .WebC1 .Level2, .WebC2 .Js1 {
+    -webkit-animation-delay: 5.1s;
+    animation-delay: 5.1s;
+}
+
+.WebC1 span, .WebC2 .Level2, .WebC3 {
+    -webkit-animation-delay: 5.4s;
+    animation-delay: 5.4s;
+}
+
+.WebC2 span, .WebC3 .BB{
+    -webkit-animation-delay: 5.7s;
+    animation-delay: 5.7s;
+}
+
+.WebC3 .BBB, .WebC4 img {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.WebC4 span, .WebC5 .ANC, .WebC6 .Ang {
+    -webkit-animation-delay: 6.3s;
+    animation-delay: 6.3s;
+}
+
+.WebC5 span, .WebC6 #Angular {
+    -webkit-animation-delay: 6.6s;
+    animation-delay: 6.6s;
+}
+
+.WebC6 span, .WebC7 img, .WebC8 .Nde {
+    -webkit-animation-delay: 6.9s;
+    animation-delay: 6.9s;
+}
+
+.WebC7 span, .WebC8 .Level2 {
+    -webkit-animation-delay: 7.2s;
+    animation-delay: 7.2s;
+}
+
+.WebC8 .Level3 {
+    -webkit-animation-delay: 7.5s;
+    animation-delay: 7.5s;
+}
+
+.WebC8 span, .WebC9 .NR {
+    -webkit-animation-delay: 7.8s;
+    animation-delay: 7.8s;
+}
+
+.WebC9 .Level2 {
+    -webkit-animation-delay: 8.1s;
+    animation-delay: 8.1s;
+}
+
+.WebC9 span, .WebC10 img {
+    -webkit-animation-delay: 8.4s;
+    animation-delay: 8.4s;
+}
+
+.WebC10 span {
+    -webkit-animation-delay: 8.7s;
+    animation-delay: 8.7s;
+}
+
+
+/*.Soft .frame{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.Soft h1, .Soft1 .frame {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+}
+
+.Soft span, .Soft1 h1, .Soft2 .frame, .WebC img, .WebC {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+}
+
+.Soft1 span, .Soft2 h1, .Soft3 .frame {
+    -webkit-animation-delay: 1.9s;
+    animation-delay: 1.9s;
+}
+
+.Soft2 span, .Soft3 h1, .Soft4 .frame {
+    -webkit-animation-delay: 2.2s;
+    animation-delay: 2.2s;
+}
+
+.Soft3 span, .Soft4 h1, .Soft5 .frame {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+.Soft4 span, .Soft5 h1, .Soft6 .frame {
+    -webkit-animation-delay: 2.8s;
+    animation-delay: 2.8s;
+}
+
+.Soft5 span, .Soft6 h1, .Soft7 .frame {
+    -webkit-animation-delay: 3.1s;
+    animation-delay: 3.1s;
+}
+
+.Soft6 span, .Soft7 h1 {
+    -webkit-animation-delay: 3.4s;
+    animation-delay: 3.4s;
+}
+
+.Soft7 span, .Soft8 img {
+    -webkit-animation-delay: 3.7s;
+    animation-delay: 3.7s;
+}
+
+.Soft8 span,  .Soft9 img {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+.Soft9 span {
+    -webkit-animation-delay: 4.3s;
+    animation-delay: 4.3s;
+}
+
+.TitleWeb h2 {
+	-webkit-animation-delay: 4.6s;
+    animation-delay: 4.6s;
+}
+
+.WebC {
+	-webkit-animation-delay: 4.9s;
+    animation-delay: 4.9s;
+}
+
+.WebC .S, .WebC0 .H {
+    -webkit-animation-delay: 5.2s;
+    animation-delay: 5.2s;
+}
+
+.WebC .SS, .WebC0 .Level2, .WebC1 .Css1{
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 5.5s;
+}
+
+.WebC0 span, .WebC1 .Level2, .WebC2 .Js1 {
+    -webkit-animation-delay: 5.8s;
+    animation-delay: 5.8s;
+}
+
+.WebC1 span, .WebC2 .Level2, .WebC3 {
+    -webkit-animation-delay: 6.1s;
+    animation-delay: 6.1s;
+}
+
+.WebC2 span, .WebC3 .BB{
+    -webkit-animation-delay: 6.4s;
+    animation-delay: 6.4s;
+}
+
+.WebC3 .BBB, .WebC4 img {
+    -webkit-animation-delay: 6.7s;
+    animation-delay: 6.7s;
+}
+
+.WebC4 span, .WebC5 .ANC, .WebC6 .Ang {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+.WebC5 span, .WebC6 #Angular {
+    -webkit-animation-delay: 7.3s;
+    animation-delay: 7.3s;
+}
+
+.WebC6 span, .WebC7 img, .WebC8 .Nde {
+    -webkit-animation-delay: 7.6s;
+    animation-delay: 7.6s;
+}
+
+.WebC7 span, .WebC8 .Level2 {
+    -webkit-animation-delay: 7.9s;
+    animation-delay: 7.9s;
+}
+
+.WebC8 .Level3 {
+    -webkit-animation-delay: 8.2s;
+    animation-delay: 8.2s;
+}
+
+.WebC8 span, .WebC9 .NR {
+    -webkit-animation-delay: 8.5s;
+    animation-delay: 8.5s;
+}
+
+.WebC9 .Level2 {
+    -webkit-animation-delay: 8.8s;
+    animation-delay: 8.8s;
+}
+
+.WebC9 span, .WebC10 img {
+    -webkit-animation-delay: 9.1s;
+    animation-delay: 9.1s;
+}
+
+.WebC10 span {
+    -webkit-animation-delay: 9.4s;
+    animation-delay: 9.4s;
+}*/
+
+
+/*
+
+
+.Soft .frame{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.Soft h1, .Soft1 .frame {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.Soft span, .Soft1 h1, .Soft2 .frame, .WebC img, .WebC {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.Soft1 span, .Soft2 h1, .Soft3 .frame {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+.Soft2 span, .Soft3 h1, .Soft4 .frame {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.Soft3 span, .Soft4 h1, .Soft5 .frame {
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+.Soft4 span, .Soft5 h1, .Soft6 .frame {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+.Soft5 span, .Soft6 h1, .Soft7 .frame {
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+}
+
+.Soft6 span, .Soft7 h1 {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+}
+
+.Soft7 span, .Soft8 img {
+    -webkit-animation-delay: 5.5s;
+    animation-delay: 5.5s;
+}
+
+.Soft8 span,  .Soft9 img {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.Soft9 span {
+    -webkit-animation-delay: 6.5s;
+    animation-delay: 6.5s;
+}
+
+.TitleWeb h2 {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+.WebC {
+    -webkit-animation-delay: 7.5s;
+    animation-delay: 7.5s;
+}
+
+.WebC .S, .WebC0 .H {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+.WebC .SS, .WebC0 .Level2, .WebC1 .Css1{
+    -webkit-animation-delay: 8.5s;
+    animation-delay: 8.5s;
+}
+
+.WebC0 span, .WebC1 .Level2, .WebC2 .Js1 {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+}
+
+.WebC1 span, .WebC2 .Level2, .WebC3 {
+    -webkit-animation-delay: 9.5s;
+    animation-delay: 9.5s;
+}
+
+.WebC2 span, .WebC3 .BB{
+    -webkit-animation-delay: 10s;
+    animation-delay: 10s;
+}
+
+.WebC3 .BBB, .WebC4 img {
+    -webkit-animation-delay: 10.5s;
+    animation-delay: 10.5s;
+}
+
+.WebC4 span, .WebC5 .ANC, .WebC6 .Ang {
+    -webkit-animation-delay: 11s;
+    animation-delay: 11s;
+}
+
+.WebC5 span, .WebC6 #Angular {
+    -webkit-animation-delay: 11.5s;
+    animation-delay: 11.5s;
+}
+
+.WebC6 span, .WebC7 img, .WebC8 .Nde {
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+}
+
+.WebC7 span, .WebC8 .Level2 {
+    -webkit-animation-delay: 12.5s;
+    animation-delay: 12.5s;
+}
+
+.WebC8 .Level3 {
+    -webkit-animation-delay: 13s;
+    animation-delay: 13s;
+}
+
+.WebC8 span, .WebC9 .NR {
+    -webkit-animation-delay: 13.5s;
+    animation-delay: 13.5s;
+}
+
+.WebC9 .Level2 {
+    -webkit-animation-delay: 14s;
+    animation-delay: 14s;
+}
+
+.WebC9 span, .WebC10 img {
+    -webkit-animation-delay: 14.5s;
+    animation-delay: 14.5s;
+}
+
+.WebC10 span {
+    -webkit-animation-delay: 15s;
+    animation-delay: 15s;
+}*/

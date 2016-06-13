@@ -1,0 +1,691 @@
+@font-face {
+    font-family: 'CodeBold';
+    src: url(./../Font/code/CODE_Bold.otf);
+}
+
+@font-face {
+    font-family: 'CodeLight';
+    src: url(./../Font/code/CODE_Light.otf);
+}
+
+@font-face {
+    font-family: 'NeouBold';
+    src: url(./../Font/neou/Neou-Bold.otf);
+}
+
+@font-face {
+    font-family: 'ProximaBold';
+    src: url(./../Font/Proxima-Nova-Bold.otf);
+}
+
+@font-face {
+    font-family: 'ProximaRegular';
+    src: url(./../Font/Proxima-Nova-Regular.otf);
+}
+
+.container {
+	width: 90%;
+	position: absolute;
+	top: 9.6em;
+	left: 19em;
+}
+
+.Home {
+	background-image: url(./../Images/background.jpg); 
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+/*	overflow: hidden;*/
+	font-size: 62.5%;
+}
+
+canvas {
+	width: 90%;
+	margin: 0px;
+	z-index: 0;
+}
+
+#canvas1 {
+	margin-right: 0em;
+}
+
+.byme {
+	font-family: "CodeBold";
+	font-size: 2.8em;
+	height: 7em;
+	color:white;
+	text-align: center;
+	position: fixed;
+	bottom:  -4em;
+	left: 42.1%;
+	z-index: -1;
+	border-width: 0px;
+	white-space: nowrap;
+}
+
+.By, .Me {
+	margin:0em;
+}
+
+.UiView {
+	z-index: -99
+}
+/*MENU*/
+
+.menu {
+	max-height: 10em; 
+	position: absolute;
+	left: 41.5em;
+	top: 2em;
+	white-space: nowrap;
+	z-index: 99;
+}
+
+.menu span {
+	font-family: "CodeBold";
+	text-align: center;
+	margin-top: 1em;
+	font-size: 4em;
+	color: white;
+	margin-left: 1em;
+	margin-right: 1em;
+	white-space: nowrap;
+}
+
+.Logo {
+	width: 45px;
+	position: absolute;
+	top: -1em;
+	left: -33em;
+	z-index: 99;
+}
+
+
+a, a:link, a:hover, a:visited {
+	color: #fff;
+}
+
+ a:active {
+ 	color: #333;
+ }
+
+.menu .menu1 {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.menu .menu2 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.menu .menu3 {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+.menu .menu4 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.menu .menu5 {
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+
+@media screen and (max-width: 1920px) {
+
+.menu1 span, .menu3 span, .menu5 span {
+  display: none;
+}
+
+#MenuPhotos:after {
+  content: 'Photos';
+}
+#MenuSkills:after {
+  content: 'Skills';
+}
+#MenuIllustrator:after {
+  content: 'Illustration';
+}
+#MenuAbout:after {
+  content: 'About';
+}
+#MenuContact:after {
+  content: 'Contact Me';
+}
+}
+
+
+@media screen and (max-width: 1300px) {
+
+.menu1 span, .menu3 span, .menu5 span {
+  display: none;
+}
+
+.menu {
+	position: absolute;
+	left: 33em;
+	top: 2em;
+}
+
+.Logo {
+    position: absolute;
+    top: -1em;
+    left: -18em;
+}
+
+.line {
+	color: white;
+}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+.menu1 span, .menu3 span, .menu5 span {
+  display: none;
+}
+
+.menu {
+	position: absolute;
+	left: 21em;
+	top: 2em;
+}
+
+.menu span {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.Logo {
+    position: absolute;
+    top: -1em;
+    left: -13em;
+}
+
+.line {
+	color: red;
+}
+
+}
+
+@media screen and (max-width: 960px) {
+
+.menu1 span, .menu3 span, .menu5 span {
+    display: none;
+}
+
+.menu {
+	position: absolute;
+	left: 30em;
+	top: 2em;
+}
+
+.menu span {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+.Logo {
+    width: 45px;
+    position: absolute;
+    top: -0.5em;
+    left: -24em;
+    z-index: 99;
+}
+
+#MenuPhotos:after {
+  content: 'P.';
+}
+#MenuSkills:after {
+  content: 'S.';
+}
+#MenuIllustrator:after {
+  content: 'I.';
+}
+#MenuAbout:after {
+  content: 'A.';
+}
+#MenuContact:after {
+  content: 'C.';
+}
+
+}
+
+@media screen and (max-width: 460px) {
+
+.menu1 span, .menu3 span, .menu5 span, .MeSkills {
+  display: none;
+}
+
+.menu {
+	position: absolute;
+	left: 10em;
+	top: 2em;
+}
+
+.menu span {
+	margin-top: 1em;
+	font-size: 3em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+	white-space: nowrap;
+}
+
+.Logo {
+    width: 45px;
+    position: absolute;
+    top: -1em;
+    left: -8em;
+    z-index: 99;
+}
+
+.line {
+	color: red;
+}
+
+}
+
+/* Contact Me*/
+
+#Contact {
+	overflow: hidden;
+}
+
+#Contact img {
+	height: 120%;
+	position: absolute;
+	top: -18.5em;
+	left: -20em;
+	z-index: 0;
+}
+
+#CM {
+	color: #ffffff;
+	text-align: center;
+	font-family: "CodeBold";
+	font-size: 4em;
+	text-decoration-color: white;
+	margin-top: 2%;
+	position: relative;
+	left: 9em;
+	top: 0.3em;
+}
+
+.Name, .Email, .Message, #Send {
+	width: 90%;
+	height: 5em;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #333333;
+	border-radius: .6em;
+	font-size: 1.8em;
+	color: #242629;
+	position: relative;
+	left: 5%;
+	right: 5%;
+	margin-top: 2%;
+}
+
+.Name, .Email {
+	width: 44%;
+}
+
+.Name {
+	margin-right: 2%;
+}
+
+.Message {
+	height: 40em;
+	max-width: 90%;
+}
+
+#Send {
+	margin-top: 2%;
+	font-family: "CodeBold";
+	color: white;
+	font-size: 2em;
+	background: #333333;
+}
+
+#send:hover {
+	background-color: white;
+	color: black; 
+}
+
+::-webkit-input-placeholder {
+   color: grey;
+   font-size: 1.8em;
+   padding-left: 1em;
+   padding-top: .2em;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: grey;
+   font-size: 1.8em;  
+   padding-left: 1em;
+   padding-top: .2em;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: grey;
+   font-size: 1.8em;  
+   padding-left: 1em;
+   padding-top: .2em;
+}
+
+:-ms-input-placeholder {  
+   color: grey;
+   font-size: 1.8em;  
+   padding-left: 1em;
+   padding-top: .2em;
+}
+
+/*ABOUT ME*/
+
+.AboutBack {
+	width: 100%;
+	height: 92.5%;
+	background-color: #0681A0;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 6px 6px 6px 6px;
+	background-color: white;
+	position: relative;
+	left: 0px;
+	top: 9em;
+	overflow: hidden;
+}
+
+#backHexa {
+	min-width: 3109px;
+	position: fixed;
+	left: -35em;
+}
+
+.Cesarphoto{
+	height: 57em;
+	position: absolute;
+	top: 22.4em;
+	margin-left: 29%;
+}
+
+.AboutLeft {
+	width: 50%;
+	height: 100%;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 6px 0px 0px 6px;
+	position: relative;
+	top: 0px;
+	right: 0px;
+	overflow: hidden;
+}
+
+.AboutRight {
+	width: 50%;
+	height: 100%;
+	border-style: solid;
+	border-width: 0px;
+	border-radius: 0px 6px 6px 0px;
+	background-color: white;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+}
+
+
+.Txt {
+	width: 80%;
+	text-align: justify;
+	margin-left: 10%;
+	margin-top: 5%;
+}
+
+.Txt h2 {
+	font-family: 'ProximaBold';
+	font-size: 2.75em;
+	margin-bottom: 1em;
+}
+
+.Txt h3 {
+	font-family: 'ProximaBold';
+	font-size: 2.75em;
+}
+
+.Txt span {
+	font-family: 'ProximaRegular';
+	font-size: 2.5em;
+}
+
+
+.ContactInfo {
+	width: 100%;
+	height: 15%;
+	position: absolute;
+	bottom: 3em;
+	left: -1em;
+	text-align: center;
+}
+
+.ContactInfo span {
+	color: white;
+	font-family: 'ProximaBold';
+	font-size: 3em;
+	margin-top: 1%;
+}
+
+.ContactInfo img {
+	width: 4.5em;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+#AM {
+	color: #242629;
+	text-align: center;
+	font-family: "CodeBold";
+	color: white;
+	font-size: 4.5em;
+	margin-top: 1%;
+}
+
+.AM { 
+	margin: 0px;
+	position: absolute;
+	top: 1em;
+	left: 44%;
+ }
+
+ .AM2 {
+ 	margin-top: 2em;
+ 	position: absolute;
+	top: 0.5em;
+	left: 34%;
+ }
+
+
+
+
+
+@media screen and (max-width: 980px) {
+
+.AboutBack {
+	height: 145%;
+	position: absolute;
+	left: 0px;
+	top: 10em;
+	overflow: hidden;
+}
+
+#backHexa {
+	position: fixed;
+	left: -62.4em;
+}
+
+.Cesarphoto{
+	position: absolute;
+	top: 14.1em;
+	left: -28em;
+	z-index: 2;
+}
+
+.AboutLeft {
+	width: 100%;
+	height: 50%;
+	border-radius: 6px 6px 0px 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.AboutRight {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 0px 6px 6px;
+	position: absolute;
+	top: 75em;
+	right: 0px;
+}
+
+
+.ContactInfo {
+	width: 100%;
+	height: 15%;
+	position: absolute;
+	top: 35em;
+	left: 30em;
+	text-align: center;
+}
+
+.ContactInfo span {
+	font-size: 3em;
+	margin-top: 1%;
+}
+
+.ContactInfo img {
+	width: 4.5em;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: 5px;
+}
+
+#AM {
+	font-size: 4.5em;
+	margin-top: 1%;
+}
+
+.AM { 
+	margin: 0px;
+	position: absolute;
+	top: 0.5em;
+	left: 44%;
+ }
+
+ .AM2 {
+ 	margin-top: 1em;
+ 	position: absolute;
+	top: 1em;
+ }
+
+}
+
+@media screen and (max-width: 460px) {
+
+.AboutBack {
+	height: 215%;
+	position: absolute;
+	left: 0px;
+	top: 10em;
+	overflow: hidden;
+}
+
+#backHexa {
+	position: fixed;
+	left: -64.4em;
+	top: -8em;
+}
+
+.Cesarphoto{
+	position: absolute;
+	top: 14.1em;
+	left: -12em;
+}
+
+.AboutLeft {
+	width: 100%;
+	height: 60%;
+	border-radius: 6px 6px 0px 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.AboutRight {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px 0px 6px 6px;
+	position: absolute;
+	top: 88em;
+	right: 0px;
+}
+
+
+.ContactInfo {
+    position: absolute;
+    top: 72em;
+    left: 0em;
+}
+
+.ContactInfo span {
+	font-size: 3em;
+	margin-top: 1%;
+}
+
+.ContactInfo img {
+	width: 4.5em;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-bottom: 5px;
+}
+
+#AM {
+	font-size: 4.5em;
+	margin-top: 1%;
+}
+
+.AM { 
+	margin: 0px;
+	position: absolute;
+	left: 40%;
+ }
+
+ .AM2 {
+ 	margin-top: 1em;
+ 	position: absolute;
+	left: 20%
+ }
+
+#scene {
+    position: absolute;
+    top: 34em;
+    left: 7em;
+}
+
+.byme {
+	position: fixed;
+	bottom:  -4em;
+	left: 22.1%;
+}
+
+#CM {
+	position: relative;
+	left: 4em;
+	top: 0.3em;
+}
+
+}

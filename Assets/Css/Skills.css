@@ -1,0 +1,519 @@
+#skills {
+	background-color: rgba(42,68,107,0);
+	min-height: 109em;
+	margin-left: 3%;
+}
+
+.main .Title {
+	width: 100%;
+	height: 5em;
+}
+
+.WrapperSkills {
+	position: relative;
+	top: 2em;
+}
+
+.Title h2 {
+	font-family: "CodeBold";
+	color: white;
+	font-size: 5em;
+	text-align: center;
+	margin-right: 3%;
+}
+
+.Title1 {
+/*	padding-top: 0.4em;
+	padding-bottom: 1em;*/
+}
+
+.Title2 {
+/*	padding-top: 0.4em;
+	padding-bottom: 1em;*/
+}
+
+.TitleWeb div {
+	margin-top: 6em;
+}
+
+.main div {
+	margin: 1%;
+	position: relative;
+}
+
+.main span {
+	font-family: "CodeBold";
+	color: white;
+	font-size: 2.2em;
+	text-align: center;
+	position: absolute;
+	bottom: -25px;
+	left: 15%;
+}
+
+.WebContainer {
+	margin: 1%;
+	margin-top: 5em;
+	position: relative;
+}
+
+.Frame {
+	border-style: solid;
+	border-width: .6em;
+	border-radius: 1.6em;
+	border-color: #FE8B00;
+	height: 18em;
+	width: 18em;
+	background-color: #1E0200;	
+}
+
+.Frame h1 {
+	margin: 0%;
+	text-align: center;
+	color: #FE8B00;
+	margin-top: 15%;
+	font-size: 11em;
+}
+
+.An {
+	border-color: #FE3B01;
+	background-color: #30180E; 
+}
+
+.An h1 {
+	color: #FE3B01;
+}
+
+.ps {
+	border-color: #00D3FD;
+	background-color: #0A0428; 
+}
+
+.ps h1 {
+	color: #00D3FD;
+}
+
+.Lr {
+	border-color: #9ED0EB;
+	background-color: #253C44; 
+}
+
+.Lr h1 {
+	color: #9ED0EB;
+}
+
+.Id {
+	border-color: #FB3597;
+	background-color: #3D0C21; 
+}
+
+.Id h1 {
+	color: #FB3597;
+}
+
+.Ae {
+	border-color: #D9A4FF;
+	background-color: #2C133D; 
+}
+
+.Ae h1 {
+	color: #D9A4FF;
+}
+
+.Pr {
+	border-color: #F362FB;
+	background-color: #502155; 
+}
+
+.Pr h1 {
+	color: #F362FB;
+}
+
+.Xd {
+	border-color: #FE1AC4;
+	background-color: #2E001D; 
+}
+
+.Xd h1 {
+	color: #FE1AC4;
+}
+
+.Frame h1 {    
+	text-shadow: 
+    rgba(12, 22, 24, 0.9) 1px 1px,
+    rgba(12, 22, 24, 0.8) 2px 2px,
+    rgba(12, 22, 24, 0.7) 3px 3px,
+    rgba(12, 22, 24, 0.6) 4px 4px,
+    rgba(12, 22, 24, 0.5) 5px 5px,
+    rgba(12, 22, 24, 0.45) 6px 6px,
+    rgba(12, 22, 24, 0.45) 7px 7px,
+    rgba(12, 22, 24, 0.40) 8px 8px,
+    rgba(12, 22, 24, 0.40) 9px 9px,
+    rgba(12, 22, 24, 0.35) 10px 10px,
+    rgba(12, 22, 24, 0.35) 11px 11px,
+    rgba(12, 22, 24, 0.30) 12px 12px,
+    rgba(12, 22, 24, 0.30) 13px 13px,
+    rgba(12, 22, 24, 0.25) 14px 14px,
+    rgba(12, 22, 24, 0.25) 15px 15px,
+    rgba(12, 22, 24, 0.20) 16px 16px,
+    rgba(12, 22, 24, 0.15) 17px 17px,
+    rgba(12, 22, 24, 0.15) 18px 18px,
+    rgba(12, 22, 24, 0.10) 19px 19px,
+    rgba(12, 22, 24, 0.10) 20px 20px,
+    rgba(12, 22, 24, 0.05) 21px 21px,
+    rgba(12, 22, 24, 0.05) 22px 22px,
+    rgba(12, 22, 24, 0.0) 23px 23px;
+/*    rgba(12, 22, 24, 0.1) 24px 24px,
+    rgba(12, 22, 24, 0.1) 25px 25px;*/
+/*    rgba(12, 22, 24, 0.1) 26px 26px,
+    rgba(12, 22, 24, 0.1) 27px 27px;*/
+/*    rgba(12, 22, 24, 0.1) 28px 28px,
+    rgba(12, 22, 24, 0.1) 29px 29px;*/
+}
+
+.Soft8 img, .Soft9 img{
+	height: 18em;
+	margin-top: 3em;
+	margin-left: 2em;
+}
+
+
+.Soft .frame{
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.Soft h1, .Soft1 .frame {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.Soft span, .Soft1 h1, .Soft2 .frame {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+.Soft1 span, .Soft2 h1, .Soft3 .frame {
+    -webkit-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+
+.Soft2 span, .Soft3 h1, .Soft4 .frame {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+.Soft3 span, .Soft4 h1, .Soft5 .frame {
+    -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+}
+
+.Soft4 span, .Soft5 h1, .Soft6 .frame {
+    -webkit-animation-delay: 2.1s;
+    animation-delay: 2.1s;
+}
+
+.Soft5 span, .Soft6 h1, .Soft7 .frame {
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
+}
+
+.Soft6 span, .Soft7 h1 {
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s;
+}
+
+.Soft7 span, .Soft8 img {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.Soft8 span,  .Soft9 img {
+    -webkit-animation-delay: 3.3s;
+    animation-delay: 3.3s;
+}
+
+.Soft9 span {
+    -webkit-animation-delay: 3.6s;
+    animation-delay: 3.6s;
+}
+
+.TitleWeb h2 {
+    -webkit-animation-delay: 3.9s;
+    animation-delay: 3.9s;
+}
+
+.WebC {
+    -webkit-animation-delay: 4.2s;
+    animation-delay: 4.2s;
+}
+
+.WebC .S, .WebC0 .H {
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+}
+
+.WebC .SS, .WebC0 .Level2, .WebC1 .Css1{
+    -webkit-animation-delay: 4.8s;
+    animation-delay: 4.8s;
+}
+
+.WebC0 span, .WebC1 .Level2, .WebC2 .Js1 {
+    -webkit-animation-delay: 5.1s;
+    animation-delay: 5.1s;
+}
+
+.WebC1 span, .WebC2 .Level2, .WebC3 {
+    -webkit-animation-delay: 5.4s;
+    animation-delay: 5.4s;
+}
+
+.WebC2 span, .WebC3 .BB{
+    -webkit-animation-delay: 5.7s;
+    animation-delay: 5.7s;
+}
+
+.WebC3 .BBB, .WebC4 img {
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+}
+
+.WebC4 span, .WebC5 .ANC {
+    -webkit-animation-delay: 6.3s;
+    animation-delay: 6.3s;
+}
+
+.WebC5 span, .WebC6 .Ang {
+    -webkit-animation-delay: 6.6s;
+    animation-delay: 6.6s;
+}
+
+.WebC6 #Angular, .WebC7 img, .WebC8 .Nde {
+    -webkit-animation-delay: 6.9s;
+    animation-delay: 6.9s;
+}
+
+.WebC6 span, .WebC7 span, .WebC8 .Level2 {
+    -webkit-animation-delay: 7.2s;
+    animation-delay: 7.2s;
+}
+
+.WebC8 .Level3 {
+    -webkit-animation-delay: 7.5s;
+    animation-delay: 7.5s;
+}
+
+.WebC8 span, .WebC9 .NR {
+    -webkit-animation-delay: 7.8s;
+    animation-delay: 7.8s;
+}
+
+.WebC9 .Level2 {
+    -webkit-animation-delay: 8.1s;
+    animation-delay: 8.1s;
+}
+
+.WebC9 span, .WebC10 img {
+    -webkit-animation-delay: 8.4s;
+    animation-delay: 8.4s;
+}
+
+.WebC10 span {
+    -webkit-animation-delay: 8.7s;
+    animation-delay: 8.7s;
+}
+
+
+
+
+.WebContainer {
+	height: 18em;
+	width: 18em;
+}
+
+.WebContainer img {
+	width: 18em;
+}
+
+.Level2 {
+	z-index: 2;
+	position: absolute;
+	top: 3.5em;
+	left: 0em;
+	height: 75%;
+}
+
+.Levenl3 {
+	z-index: 3;
+}
+
+.Level4 {
+	z-index: 4;
+}
+
+.B {
+	border-color: #fff;
+	background-color: #614789; 
+}
+
+.B .BB {
+	color: white;
+	font-size: 13em;
+	position: absolute;
+	top: 0.25em;
+	left: 0.42em;
+	z-index: 4;
+}
+
+.Sass {
+	margin-top: 2em;
+	margin-left: 2em;
+}
+
+#AnimateCss {
+	font-family: "ProximaRegular";
+	font-size: 5em;
+    color: #f35626;
+    position: absolute;
+    top: 0.5em;
+    margin-left: -0.5em;
+ }
+
+.FID {
+	-webkit-animation-name: FID;
+  	animation-name: FID;
+}
+
+@-webkit-keyframes FID {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes FID {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+    background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s infinite linear;
+/*    -webkit-animation-delay: 11s;
+    animation-delay: 11s;*/
+  }
+}
+
+
+#Angular {
+	position: absolute;
+	top: 2em;
+    left: 0em;
+    height: 67%;
+}
+
+.Jq {
+	height: 90%
+}
+
+.NpmRed{
+	margin-top: 6em;
+}
+
+.Npm {
+	margin-top: 3.4em;
+	height: 28%;
+}
+
+.Nde {
+	margin-top: 3em;
+	margin-left: 0em;
+}
+
+.Hex {
+	margin-top: 2em;
+	margin-left: 1.58em;
+	height: 24.3%;
+}
+
+.JS {
+	margin-top: 0em;
+	margin-left: 0em;
+	height: 25%;
+}
+
+.Su {
+	border-color: #D9D9D9;
+	background-color: #4C4C4C;
+}
+
+.Su .S {
+	font-size: 13em;
+	position: absolute;
+	top: 0.25em;
+	left: 0.42em;
+	z-index: 4;
+	color: #FF8100;
+}
+
+.Soft1 span {left: 26%;}
+.Soft4 span {left: 23%;}
+.Soft5 span {left: 9%;}
+.Soft6 span {left: 11%;}
+.Soft7 span {
+	left: 5%;
+	bottom: -38%;
+}
+.Soft8 span {left: 41%;}
+
+.WebC0 span {left: 37%;}
+.WebC1 span {left: 39%;}
+.WebC2 span {left: 18%;}
+.WebC3 span {left: 17%;}
+.WebC4 span {left: 46%;}
+.WebC7 span {left: 19%;}
+.WebC8 span {left: 27%;}
+.WebC9 span {left: 35%;}
+.WebC10 span {left: 28%;}
+
+.WebC0 img, .WebC1 img, .WebC2 img {
+	width: 16.5em;
+	left: .75em;
+}
+
+.WebC0 .H, .WebC1 .Css1, .WebC2 .Js1 {
+	margin-left: .75em;
+}
+
+.WebC0 .Level2, .WebC1 .Level2, .WebC2 .Level2 {
+	position: absolute;
+	top: 2.75em;
+}
+
+/*.ExPadding {
+	width: 100%;
+	padding-bottom: 3em;
+	position: absolute;
+	bottom: 0px;
+}*/
+
+.main .Soft, .main .Soft1, .main .Soft2, .main .Soft3, .main .Soft4, .main .Soft5, .main .Soft6, .main .Soft7, .main .Soft8, .main .Soft9 {
+	margin-top: 5em;
+}
+.main .WebC, .main .WebC0, .main .WebC1, .main .WebC2, .main .WebC3, .main .WebC4, .main .WebC5, .main .WebC6, .main .WebC7, .main .WebC8, .main .WebC9, .main .WebC10 {
+	margin-top: 5em;
+}
