@@ -1,6 +1,6 @@
 var express 	= require('express');
 
-var PORT 		= 8000;
+var PORT 		= 80;
 var app 		= express();
 
 app.use(express.static(__dirname + './../'));
