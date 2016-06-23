@@ -1,3 +1,5 @@
+
+@media screen and (max-width: 2160px) {
 #skills {
 	background-color: rgba(42,68,107,0);
 	min-height: 109em;
@@ -20,16 +22,6 @@
 	font-size: 5em;
 	text-align: center;
 	margin-right: 3%;
-}
-
-.Title1 {
-/*	padding-top: 0.4em;
-	padding-bottom: 1em;*/
-}
-
-.Title2 {
-/*	padding-top: 0.4em;
-	padding-bottom: 1em;*/
 }
 
 .TitleWeb div {
@@ -73,6 +65,7 @@
 	color: #FE8B00;
 	margin-top: 15%;
 	font-size: 11em;
+	z-index: 10;
 }
 
 .An {
@@ -173,7 +166,7 @@
 
 .Soft8 img, .Soft9 img{
 	height: 18em;
-	margin-top: 3em;
+/*	margin-top: 3em;*/
 	margin-left: 2em;
 }
 
@@ -516,4 +509,5 @@
 }
 .main .WebC, .main .WebC0, .main .WebC1, .main .WebC2, .main .WebC3, .main .WebC4, .main .WebC5, .main .WebC6, .main .WebC7, .main .WebC8, .main .WebC9, .main .WebC10 {
 	margin-top: 5em;
+}
 }

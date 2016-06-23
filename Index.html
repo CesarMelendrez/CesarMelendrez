@@ -44,16 +44,13 @@
 	<script src="Assets/Js/Photos.ctrl.js"></script>
 	<script src="Assets/Js/Illustration.ctrl.js"></script>
 	<script src="Assets/Js/About.ctrl.js"></script>
-			<!-- Styles-->
+		<!-- Styles-->
 	<link rel="stylesheet" href="Assets/Css/Photos.css">
 	<link rel="stylesheet" href="Assets/Css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="Assets/Css/Styles.css">
 	<link rel="stylesheet" type="text/css" href="Assets/Css/Skills.css">
 	<link rel="stylesheet" type="text/css" href="Assets/Css/animate.css">
 	<link rel="stylesheet" type="text/css" href="Assets/Css/Illustration.css">
-		<!-- Google Analytics -->
-		<!-- Add at the end -->
-		<!--https://www.google.com/analytics/web/provision?authuser=0#provision/CreateAccount/-->
 </head>
 
 
@@ -87,26 +84,39 @@
 </div>
 
  <div class="modal fade" id="ContactMe" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog">	
       <div id="Contact" class="modal-content">
       	<img class="" src="Assets/Images/Hex101.svg">
 
           <button type="button" class="close" data-dismiss="modal">&times;</button>
 
           <span id="CM" class="modal-title">Contact Me</span>
-
-          <form action="Assets/Js/form.php" method="post" enctype="multipart/form-data">
+<!-- Assets/Js/Form.js -->
+          <form action="cesarmelendrez@gmail.com" name="Post" method="post" enctype="multipart/form-data">
 <!--           	<spam>Name</spam> -->
 			<input class="Name" type="text" name="Name" placeholder="Name" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 <!-- 			<spam>Email</spam> -->
 			<input class="Email" type="text" name="EmailAddress" placeholder="Email Address" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
 <!-- 			<spam>Message</spam> -->
 			<textarea class="Message" type="text" name="Message" placeholder="Message" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="on"></textarea>
-          <button id="Send" type="submit" class="" value="Send">Send</button>
+          <button id="Send" type="submit" class="" value="Send" data-toggle="modal" data-target="#Thanks">Send</button>
           </form>
+<!--           <button id="Send" data-toggle="modal" data-target="#Thanks">Send</button> -->
       </div>
     </div>
   </div>
+  <div id="Thanks" class="modal fade">
+  <img src="Assets/Images/HexThanks.svg">
+  <div class="panelThanks">
+    <div class="Thanks">
+      <h1>Thank You!</h1>
+    </div>
+    <div class="Your">
+      <p>Your form submission <br> has been received.</p>
+    </div>
+  </div>
+  </img>
+</div>
 
 	<div ui-view class="UiView"></div>
 </body>

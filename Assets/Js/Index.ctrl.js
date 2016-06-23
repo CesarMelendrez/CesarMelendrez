@@ -4,6 +4,13 @@
 		.controller('IndexCtrl',IndexCtrl);
 
 		function IndexCtrl($state, $uibModal) {
-			// $state.go('Photos');
+			 jQuery("#Thanks").modal({
+				  escapeClose: true,
+				  clickClose: true,
+				  showClose: true,
+				
+				});
 		}
+
+
 })();

@@ -14,14 +14,14 @@
             t.poptrox({baseZIndex:2e4,
               caption:function(e){var o="";
               return e.nextAll().each(function(){o+=this.outerHTML}),o},
-              fadeSpeed:300,
+              fadeSpeed:100,
               onPopupClose:function(){n.removeClass("modalActive")},
               onPopupOpen:function(){n.addClass("modalActive")},
               overlayOpacity:0,
               popupCloserText:"",
-              popupHeight:300,
+              popupHeight:100,
               popupLoaderText:"",
-              popupSpeed:300,popupWidth:300,
+              popupSpeed:100,popupWidth:100,
               selector:".thum > a.image",
               usePopupCaption:!0,
               usePopupCloser:!0,
@@ -31,7 +31,7 @@
               usePopupLoader:!0,
               usePopupNav:!0,
               preload:!0,
-              windowMargin:200}),
+              windowMargin:100}),
 
 
 

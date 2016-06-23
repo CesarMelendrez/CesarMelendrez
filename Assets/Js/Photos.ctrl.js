@@ -14,7 +14,7 @@
             t.poptrox({baseZIndex:2e4,
               caption:function(e){var o="";
               return e.nextAll().each(function(){o+=this.outerHTML}),o},
-              fadeSpeed:300,
+              fadeSpeed:100,
               onPopupClose:function(){n.removeClass("modalActive")},
               onPopupOpen:function(){n.addClass("modalActive")},
               overlayOpacity:0,

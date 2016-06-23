@@ -308,6 +308,24 @@
 				transition-delay: 0.8s;
 			}
 
+/*			#main .thum:nth-child(2):hover {
+				content:url(./../Images/Illustration/parte1C.svg);
+			}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
 			#main .thum:nth-child(3) {
 				-moz-transition-delay: 0.95s;
 				-webkit-transition-delay: 0.95s;
@@ -687,3 +705,4 @@
 				}
 
 		}
+

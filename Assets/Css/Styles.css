@@ -32,6 +32,7 @@
 
 .Home {
 	background-image: url(./../Images/background.jpg); 
+	background-color: black;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -54,11 +55,11 @@ canvas {
 .byme {
 	font-family: "CodeBold";
 	font-size: 2.8em;
-	height: 7em;
+/*	height: 0em;*/
 	color:white;
 	text-align: center;
 	position: fixed;
-	bottom:  -4em;
+	bottom:  0em;
 	left: 42.1%;
 	z-index: -1;
 	border-width: 0px;
@@ -294,6 +295,8 @@ a, a:link, a:hover, a:visited {
 
 #Contact {
 	overflow: hidden;
+	position: absolute;
+	top: 4.5em;
 }
 
 #Contact img {
@@ -318,7 +321,7 @@ a, a:link, a:hover, a:visited {
 
 .Name, .Email, .Message, #Send {
 	width: 90%;
-	height: 5em;
+	height: 3em;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #333333;
@@ -328,7 +331,16 @@ a, a:link, a:hover, a:visited {
 	position: relative;
 	left: 5%;
 	right: 5%;
-	margin-top: 2%;
+	margin-top: 3%;
+}
+
+input[type="text"] {
+    font-size: 2.5em;
+    margin-top: .5em;
+}
+
+input[placeholder="text"] {
+	font-family: "CodeBold";
 }
 
 .Name, .Email {
@@ -340,8 +352,9 @@ a, a:link, a:hover, a:visited {
 }
 
 .Message {
-	height: 40em;
+	height: 30em;
 	max-width: 90%;
+	font-size: 2.5em;
 }
 
 #Send {
@@ -395,13 +408,14 @@ a, a:link, a:hover, a:visited {
 	border-width: 0px;
 	border-radius: 6px 6px 6px 6px;
 	background-color: white;
-	position: relative;
+	position: absolute;
 	left: 0px;
 	top: 9em;
 	overflow: hidden;
 }
 
 #backHexa {
+	content:url(./../Images/HexX4.svg);
 	min-width: 3109px;
 	position: fixed;
 	left: -35em;
@@ -433,7 +447,7 @@ a, a:link, a:hover, a:visited {
 	border-width: 0px;
 	border-radius: 0px 6px 6px 0px;
 	background-color: white;
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	right: 0px;
 }
@@ -467,8 +481,8 @@ a, a:link, a:hover, a:visited {
 	width: 100%;
 	height: 15%;
 	position: absolute;
-	bottom: 3em;
-	left: -1em;
+	bottom: 5em;
+	left: -2em;
 	text-align: center;
 }
 
@@ -476,13 +490,14 @@ a, a:link, a:hover, a:visited {
 	color: white;
 	font-family: 'ProximaBold';
 	font-size: 3em;
-	margin-top: 1%;
+	vertical-align: -6px;
 }
 
 .ContactInfo img {
 	width: 4.5em;
 	margin-right: 1em;
 	margin-left: 1em;
+	margin-top: 4px;
 }
 
 #AM {
@@ -522,16 +537,20 @@ a, a:link, a:hover, a:visited {
 	overflow: hidden;
 }
 
-#backHexa {
-	position: fixed;
-	left: -62.4em;
-}
+/*#backHexa {
+	height: 145%;
+    content: url(./../Images/HexAboutIpad.svg);
+    height: 57%;
+    position: absolute;
+    left: -126.2em;
+    top: 0em;
+}*/
 
 .Cesarphoto{
 	position: absolute;
 	top: 14.1em;
 	left: -28em;
-	z-index: 2;
+	z-index: 12;
 }
 
 .AboutLeft {
@@ -541,6 +560,7 @@ a, a:link, a:hover, a:visited {
 	position: absolute;
 	top: 0px;
 	left: 0px;
+	overflow: hidden;
 }
 
 .AboutRight {
@@ -557,7 +577,7 @@ a, a:link, a:hover, a:visited {
 	width: 100%;
 	height: 15%;
 	position: absolute;
-	top: 35em;
+	top: 32em;
 	left: 30em;
 	text-align: center;
 }
@@ -593,21 +613,23 @@ a, a:link, a:hover, a:visited {
  }
 
 }
-
 @media screen and (max-width: 460px) {
 
+
 .AboutBack {
-	height: 215%;
+	height: 225%;
 	position: absolute;
 	left: 0px;
-	top: 10em;
+	top: 9em;
 	overflow: hidden;
 }
 
 #backHexa {
-	position: fixed;
-	left: -64.4em;
-	top: -8em;
+/*	content:url(./../Images/HexAboutCell.svg);
+	height: 57%;*/
+	position: absolute;
+	left: -18em;
+/*	top: 0em;*/
 }
 
 .Cesarphoto{
@@ -618,7 +640,7 @@ a, a:link, a:hover, a:visited {
 
 .AboutLeft {
 	width: 100%;
-	height: 60%;
+	height: 64%;
 	border-radius: 6px 6px 0px 0px;
 	position: absolute;
 	top: 0px;
@@ -627,11 +649,16 @@ a, a:link, a:hover, a:visited {
 
 .AboutRight {
 	width: 100%;
-	height: 100%;
+	height: 65%;
 	border-radius: 0px 0px 6px 6px;
-	position: absolute;
-	top: 88em;
+	position: relative;
+	top: 97em;
 	right: 0px;
+}
+
+.Txt {
+	margin-top: 1em;
+	position: absolute;
 }
 
 
@@ -678,7 +705,7 @@ a, a:link, a:hover, a:visited {
 
 .byme {
 	position: fixed;
-	bottom:  -4em;
+	bottom:  0em;
 	left: 22.1%;
 }
 
@@ -688,4 +715,53 @@ a, a:link, a:hover, a:visited {
 	top: 0.3em;
 }
 
+}
+
+    
+/*     THAKS YOU */
+
+#Thanks {
+  width: 48em;
+  overflow:hidden;
+  position: absolute;
+  top: 30%;
+  left: 39.2%; 
+}
+
+.Thanks h1 { 
+  font-family: 'ProximaBold';
+  color: white;
+  margin-top: 10; 
+  font-weight: 200;
+  font-size: 7em; 
+  position: absolute;
+  top: 2em;
+  left: 1em;
+}
+
+.Your { 
+	font-family: 'ProximaRegular';
+	font-size: 4em;
+	color: white;
+    position: absolute;
+    top: 6.5em;
+    left: 1.5em;
+    text-align: center;
+}
+
+
+@media (max-width: 960px) {
+#Thanks { 
+    position: absolute;
+    top: 22%;
+    left: 29%;
+}
+
+@media (max-width: 500px) {
+#Thanks { 
+    position: absolute;
+    top: 22%;
+    left: 10%;
+    z-index: 99;
+ }
 }
